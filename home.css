@@ -2,7 +2,7 @@ body{
     font: 18px "Montserrat", sans-serif;
 }
 
-nav{
+.navbar{
     height: 10vh;
     min-height: 50px;
     width: 100vw;
@@ -32,6 +32,15 @@ nav{
     color: white;
 }
 
+.collapse{
+    justify-content: end;
+}
+
+.collapse a{
+    color: #ffb23e;
+    text-decoration: none;
+}
+
 #text{
     padding: 10vh 2%;
 }
@@ -41,7 +50,7 @@ nav{
     font-weight: bold;
 }
 
-#guia{
+#navbarNavDropdown{
     font-size: 20px;
     text-align: right;
 }
@@ -111,7 +120,7 @@ nav{
 }
 
 @media only screen and (max-width: 800px) {
-    #guia{
+    #navbarNavDropdown{
         font-size: 12px;
     }
 
