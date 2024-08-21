@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/home.css" media="screen" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="home.css" media="screen" />
     <title>O surgimento do mosquito</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
             <h1 id="titulo">O surgimento do mosquito</h1>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,15 +21,14 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <a class="pointer" href="#">Ínicio</a>
+                <a class="pointer" href="#text">Ínicio</a>
                 <span>&nbsp;&nbsp;&nbsp;</span>
                 <a class="pointer" href="#">Contos</a>
                 <span>&nbsp;&nbsp;&nbsp;</span>
                 <a class="pointer" href="#">Síntese</a>
                 <span>&nbsp;&nbsp;&nbsp;</span>
-                <a class="pointer" href="#">Contato</a>
+                <a class="pointer" href="#footer">Contato</a>
             </div>
-        </div>
     </nav>
 
     <img id="capa" src="https://picsum.photos/1200/300">
@@ -52,6 +51,44 @@
             </div>
         </div>
     </div>
+
+    <div id="comentarios">
+        <h2>Comentários</h2>
+
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    
+            */
+            
+            var disqus_config = function () {
+            this.page.url = 'https://samuel-schlemper-schlemuel.github.io/O_surgimento_do_mosquito/home.html';  
+            this.page.identifier = 'q5FkfC4prVG88eDmE27W';
+            };
+            
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://o-surgimento-do-mosquito.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    <footer id="footer">
+        <span>
+            Créditos: Lucas Corrêa, Manuela Toniolo e Samuel Schlemper
+        </span>
+        <span>
+            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <a href="mailto:example@noemail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+        </span>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
