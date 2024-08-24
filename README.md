@@ -1,9 +1,8 @@
-# Summary
+# Resumo
 
-**Project still being done**
+Esse site é um projeto de escola com o objetivo de criar um local para ler e entender um pouco soubre um conto específico, neste caso, é o 'O surgimento do mosquito',
+da tribo Terena, nativos da região centro-oeste do Brasil.
 
-This website is a school project where the goal is to create a place to read and understand a little about a specific tale, in this case, it is 'O surgimento do mosquito', from the Terena tribe, native americans from the central-western region of Brazil.
-
-Developer: Samuel Schlemper and Lucas Corrêa
+Desenvolvedores: Samuel Schlemper and Lucas Corrêa
 
 Designer: Manuela Toniolo
